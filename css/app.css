@@ -72,7 +72,7 @@ nav {
   box-shadow: 0px 10px 20px 0px rgba(119, 126, 144, 0.1); }
 
 footer {
-  background: linear-gradient(0deg, rgba(20, 20, 20, 0.61), rgba(22, 22, 22, 0.548)), url("../../imgs/Rectangle 5 (1).png");
+  background: linear-gradient(0deg, rgba(20, 20, 20, 0.61), rgba(22, 22, 22, 0.548)), url("../imgs/Rectangle 5 (1).png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +128,7 @@ footer {
     height: 522px;
     filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg); }
   .app .title {
-    color: #FFF;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
@@ -244,6 +244,20 @@ footer {
         font-size: 14px !important; }
       .app .resturant-branchs .branch-box .show-resturant {
         font-size: 13px !important; } }
+  .app .branch-info img {
+    width: 100%;
+    border-radius: 24px; }
+    @media (min-width: 992px) {
+      .app .branch-info img {
+        max-width: 95%;
+        max-height: 805px; } }
+  .app .branch-info .branch-title {
+    font-size: 28px;
+    font-weight: 700; }
+    .app .branch-info .branch-title.left-title {
+      text-decoration: underline; }
+  .app .branch-info .map iframe {
+    margin: 10px 0px; }
 
 .blog .banner {
   height: auto !important; }
@@ -256,6 +270,27 @@ footer {
 .blog .blog-details {
   font-size: 16px;
   font-weight: 400; }
+.blog .blog-box {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 24px; }
+  .blog .blog-box img {
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+    border-radius: 24px; }
+  .blog .blog-box .blog-date {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  .blog .blog-box .blog-info {
+    font-size: 19px; }
+.blog .blog-row {
+  width: 80%;
+  margin: auto; }
+  @media (max-width: 500px) {
+    .blog .blog-row {
+      width: 100%; } }
 
 .main-title {
   color: #fff;
