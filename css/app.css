@@ -104,6 +104,108 @@ footer {
       footer .left-part-content {
         width: 100%; } }
 
+.app.home-app {
+  padding-top: 0px; }
+  .app.home-app .home-banner .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: right; }
+    .app.home-app .home-banner .carousel-caption .title {
+      font-size: 67px; }
+      @media (max-width: 600px) {
+        .app.home-app .home-banner .carousel-caption .title {
+          font-size: 40px; } }
+    .app.home-app .home-banner .carousel-caption p {
+      font-size: 24px;
+      width: 60%; }
+      @media (max-width: 600px) {
+        .app.home-app .home-banner .carousel-caption p {
+          font-size: 16px;
+          width: 100%; } }
+  .app.home-app .home-banner .menue {
+    width: 176px;
+    height: 52px; }
+  .app.home-app .home-banner .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 1px;
+    margin: 5px 7px;
+    background: #ffffffcc;
+    border-top: 0px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 0.2s ease;
+    border-radius: 30px;
+    opacity: 1; }
+    .app.home-app .home-banner .carousel-indicators [data-bs-target].active {
+      width: 35px;
+      background-color: #A27F45; }
+  .app.home-app .home-banner .carousel-item {
+    height: 865px; }
+    .app.home-app .home-banner .carousel-item img {
+      height: 100%;
+      object-fit: cover; }
+    @media (max-width: 768px) {
+      .app.home-app .home-banner .carousel-item {
+        height: 700px; } }
+  .app.home-app .about-restaurant img {
+    height: 611px;
+    border-radius: 24px; }
+    @media (max-width: 1200px) {
+      .app.home-app .about-restaurant img {
+        width: 50%; } }
+    @media (max-width: 992px) {
+      .app.home-app .about-restaurant img {
+        width: 100%;
+        margin-bottom: 20px; } }
+  .app.home-app .about-restaurant .about-info {
+    background-color: #222;
+    border-radius: 24px;
+    border-radius: 24px 0px 0px 24px;
+    height: 337px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 60px; }
+    .app.home-app .about-restaurant .about-info .title {
+      font-size: 48px; }
+    .app.home-app .about-restaurant .about-info p {
+      font-size: 24px;
+      padding-top: 24px; }
+    @media (max-width: 1400px) {
+      .app.home-app .about-restaurant .about-info .title {
+        font-size: 33px; }
+      .app.home-app .about-restaurant .about-info p {
+        font-size: 18px; } }
+    @media (max-width: 992px) {
+      .app.home-app .about-restaurant .about-info {
+        border-radius: 24px; } }
+    @media (max-width: 400px) {
+      .app.home-app .about-restaurant .about-info .title {
+        font-size: 26px; }
+      .app.home-app .about-restaurant .about-info p {
+        font-size: 17px; } }
+  @media (max-width: 992px) {
+    .app.home-app .about-restaurant .d-flex {
+      flex-wrap: wrap; } }
+  .app.home-app .branches .video-card {
+    padding: 22px; }
+  .app.home-app .branches .location {
+    width: 163px;
+    height: 41px; }
+  .app.home-app .special-food .show-all {
+    width: 161px;
+    height: 51px;
+    margin: auto; }
+
+.app.home-app .branches .title, .app.home-app .special-food .head-title {
+  font-size: 48px; }
+  @media (max-width: 992px) {
+    .app.home-app .branches .title, .app.home-app .special-food .head-title {
+      font-size: 33px; } }
+
 .app {
   background-color: #2E2E2E;
   padding-top: 100px; }
@@ -116,6 +218,9 @@ footer {
     object-fit: cover;
     border-radius: 24px;
     overflow: hidden; }
+    .app .banner img {
+      width: auto;
+      height: 100%; }
     @media (max-width: 768px) {
       .app .banner {
         height: 300px; } }
@@ -130,7 +235,7 @@ footer {
   .app .title {
     color: #fff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase; }
   .app .video-card {
@@ -244,6 +349,9 @@ footer {
         font-size: 14px !important; }
       .app .resturant-branchs .branch-box .show-resturant {
         font-size: 13px !important; } }
+    @media (max-width: 400px) {
+      .app .resturant-branchs .branch-box img {
+        max-width: 150px !important; } }
   .app .branch-info img {
     width: 100%;
     border-radius: 24px; }
@@ -261,6 +369,13 @@ footer {
 
 .blog .banner {
   height: auto !important; }
+  .blog .banner img {
+    max-width: 100%;
+    max-height: 100%; }
+  @media (max-width: 768px) {
+    .blog .banner img {
+      height: 250px !important;
+      width: auto; } }
 .blog .blog-date {
   color: #777E90;
   font-size: 12px; }
@@ -291,6 +406,32 @@ footer {
   @media (max-width: 500px) {
     .blog .blog-row {
       width: 100%; } }
+
+.app.food-app {
+  padding-top: 0px; }
+  .app.food-app .food-banner {
+    background: url("../imgs/pexels-volkan-vardar-3887985 1.png");
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    height: 500px;
+    text-align: center; }
+    .app.food-app .food-banner h1 {
+      font-size: 70px !important; }
+    .app.food-app .food-banner p {
+      font-size: 24px !important;
+      width: 37%;
+      margin: auto; }
+    @media (max-width: 768px) {
+      .app.food-app .food-banner {
+        padding-top: 170px; }
+        .app.food-app .food-banner h1 {
+          font-size: 35px !important; }
+        .app.food-app .food-banner p {
+          font-size: 20px !important;
+          width: 70%; } }
 
 .main-title {
   color: #fff;
